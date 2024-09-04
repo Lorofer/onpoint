@@ -1,0 +1,62 @@
+.slider{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
+    touch-action: pan-y;
+}
+.slider-list{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.main{
+    width: fit-content;
+    display: flex;
+    background-image: url("../../sourses/Ellipse 1 copy.png");
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+.slide {
+    width: 100vw;
+    height: 100vh;
+    flex-shrink: 0;
+}
+
+.first-screen-content{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left: 68px;
+    position: absolute;
+    bottom: 210px;
+    & > p{
+        font-size: 27px;
+        line-height: 75px;
+        font-family: 'Gilroy-Light';
+    }
+    & > h1{
+        font-size: 109px;
+        line-height: 117px;
+        font-family: 'Gilroy-Thin';
+
+        & > b{
+            font-family: 'Gilroy-ExtraBold';
+        }
+    }
+}
+#first-screen-button{
+    width: 289px;
+    height: 81px;
+
+    position: absolute;
+    right: 64px;
+    bottom: 20px;
+
+    & #button-arrow{
+        position: absolute;
+        display: inline-block;
+        height: 18px;
+        left: 32px;
+    }
+}

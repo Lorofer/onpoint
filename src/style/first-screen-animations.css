@@ -1,0 +1,97 @@
+#layer-7{
+    top: 60px;
+    left: -70px;
+    transform: scale(0.9);
+}
+#pink-sperm{
+    bottom: 0;
+}
+#layer-4-copy{
+    bottom: 50px;
+    left: 360px;
+}
+#layer-4-copy-2{
+    top: 30px;
+    left: 850px;
+    transform: scale(0.7);
+}
+#pink-sperm-1{
+    top: 103px;
+    left: 140px;
+    transform: scale(0.5);
+    z-index: 1;
+}
+
+#layer-4{
+    bottom: -90px;
+    left: 550px;
+    animation: layer-4 6s infinite alternate linear;
+}
+@keyframes layer-4 {
+    from{
+        transform: scale(1);
+    }
+    30%{
+        transform: scale(1.05);
+    }
+    to{
+        transform: scale(1) translate(-10px, -30px);
+    }
+}
+
+#bakti-1{
+    top: 450px;
+    left: -20px;
+    animation: bakti-1 5s infinite alternate linear;
+}
+@keyframes bakti-1 {
+    from{
+        transform: translate(0, 0) scale(0.45);
+    }
+    to{
+        transform: translate(70px, 50px) scale(0.45);
+    }
+}
+
+@keyframes layer-5 {
+    from{
+        transform: translate(0, 0) scale(0.5);
+    }
+    50%{
+        transform: translate(5px, 20px) scale(0.5);
+    }
+    to{
+        transform: translate(-5px, 0) scale(0.6);
+    }
+}
+#layer-5{
+    top: 50px;
+    left: 660px;
+    animation: layer-5 7s infinite alternate linear;
+}
+
+#layer-8-container{
+    top: 150px;
+    left: 760px;
+    animation: layer-8-container 4s infinite alternate linear;
+    z-index: 2;
+}
+#layer-8{
+    animation: layer-8 15s infinite normal linear;
+}
+@keyframes layer-8-container {
+    from{
+        transform: translate(0, 0) scale(0.5);
+    }
+    to{
+        transform: translate(-70px, -20px) scale(0.5);
+    }
+}
+@keyframes layer-8 {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
