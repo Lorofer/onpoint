@@ -19,13 +19,12 @@ module.exports = {
             patterns: [
                 {
                     from: path.resolve(__base, 'sourses'),
-                    to:   path.resolve(__base, 'dist/sourses')
+                    to:   path.resolve(__base, 'dist', 'sourses')
                 }
             ]
         }),
         new HtmlWebpackPlugin({
             title: 'Тестовое задание | Onpoint',
-            //favicon: path.resolve(__base, 'sourses', 'favicon.png'),
             template: path.resolve(__src, 'index.html'),
         })
     ],
@@ -44,6 +43,10 @@ module.exports = {
             {
                 test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
                 type: 'asset/resource',
+                loader: 'file-loader',
+                options: {
+                    outputPath: 'sourses',
+                }
             },
         ]
     }
