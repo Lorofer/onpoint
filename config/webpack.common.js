@@ -17,7 +17,7 @@ module.exports = {
 
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Тестовое задание | Onpoint',
+            //title: 'Тестовое задание | Onpoint',
             template: path.resolve(__src, 'index.html'),
         })
     ],
