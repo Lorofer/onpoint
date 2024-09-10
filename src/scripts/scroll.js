@@ -12,7 +12,7 @@ let posInit = 0;
 let posY1 = 0;
 let posY2 = 0;
 
-function scrollEnd(event){
+function scrollEnd(event) {
     event.stopPropagation();
 
     document.removeEventListener('touchmove', scrollAction);
@@ -20,7 +20,8 @@ function scrollEnd(event){
     document.removeEventListener('touchend', scrollEnd);
     document.removeEventListener('mouseup', scrollEnd);
 }
-function scrollAction(event){
+
+function scrollAction(event) {
     event.stopPropagation();
 
     const trfRegExp = /[-0-9.]+(?=px)/;
@@ -34,8 +35,7 @@ function scrollAction(event){
     if (transformValueY <= 0 && posInit > posY1) {
         scroll.style.transform = 'translateY(0px)';
         return;
-    }
-    else if (transformValueY >= scrollLineHeight - scrollHeight && posInit < posY1) {
+    } else if (transformValueY >= scrollLineHeight - scrollHeight && posInit < posY1) {
         scroll.style.transform = `translateY(${scrollLineHeight - scrollHeight}px)`;
         return;
     }
@@ -45,10 +45,11 @@ function scrollAction(event){
     }px)`;
     scroll.style.transform = `translateY(${transformValueY - posY2}px)`;
 }
-function scrollStart(event){
+
+function scrollStart(event) {
     event.stopPropagation();
 
-    if(event.touches){
+    if (event.touches) {
         posInit = posY1 = event.touches[0].clientY;
 
         document.addEventListener('touchmove', scrollAction);

@@ -1,4 +1,4 @@
-export function spermSwim(){
+export function spermSwim() {
     let spermArray = document.querySelectorAll('.sperm-block-2');
     spermArray.forEach((sperm) => {
         sperm.style.animation = "";
@@ -7,7 +7,7 @@ export function spermSwim(){
     });
 }
 
-export function removeSperm(){
+export function removeSperm() {
     let spermArray = document.querySelectorAll('.sperm-block-2');
     spermArray.forEach((sperm) => {
         sperm.style.animation = "";

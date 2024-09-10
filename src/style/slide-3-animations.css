@@ -1,82 +1,82 @@
 @keyframes show-block {
-    from{
+    from {
         opacity: 0;
     }
-    to{
+    to {
         opacity: 100%;
     }
 }
 @keyframes hide-block {
-    from{
+    from {
         opacity: 100%;
     }
-    to{
+    to {
         opacity: 0;
     }
 }
 
-#bubble-8{
+#bubble-8 {
     top: 500px;
     left: 2080px;
     animation: bubble-8 7s infinite alternate linear;
     z-index: 5;
 }
 @keyframes bubble-8 {
-    from{
+    from {
         transform: translate(0, 0);
     }
-    to{
+    to {
         transform: translate(-10px, -10px);
     }
 }
 
-#bubble-7{
+#bubble-7 {
     top: 400px;
     left: 2060px;
     animation: bubble-7 5s infinite alternate linear;
     z-index: 5;
 }
 @keyframes bubble-7 {
-    from{
+    from {
         transform: translate(0, 0);
     }
-    to{
+    to {
         transform: translate(-10px, -10px);
     }
 }
 
-#bubble-5{
+#bubble-5 {
     top: 200px;
     left: 2300px;
     animation: bubble-5 8s infinite alternate ease-in-out;
     z-index: 6;
 }
 @keyframes bubble-5 {
-    from{
+    from {
         transform: translate(0, 0) scale(1);
     }
-    50%{
+    50% {
         transform: translate(20px, 30px) scale(1.1);
     }
-    to{
+    to {
         transform: translate(30px, 0) scale(1);
     }
 }
 
-#bubble-6{
+#bubble-6 {
     top: 600px;
     left: 2200px;
     animation: bubble-6 8s infinite alternate ease-in-out;
     z-index: 6;
 }
 @keyframes bubble-6 {
-    from{
+    from {
         transform: translate(0, 0) scale(1);
     }
-    50%{
+    50% {
         transform: translate(20px, 30px) scale(1.1);
     }
-    to{
+    to {
         transform: translate(30px, 0) scale(1);
     }
 }

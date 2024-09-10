@@ -1,35 +1,35 @@
-.sperm-block-2{
+.sperm-block-2 {
     opacity: 0;
     transform: scale(0.5);
 }
 
-#layer-3-copy-6{
+#layer-3-copy-6 {
     left: 800px;
     top: -480px;
 }
-#layer-3-copy-2{
+#layer-3-copy-2 {
     left: 640px;
     top: -310px;
 }
-#layer-3-copy-4{
+#layer-3-copy-4 {
     left: 540px;
     top: -380px;
 }
-#layer-3-copy-3{
+#layer-3-copy-3 {
     left: 1090px;
     top: -310px;
 }
-#layer-3-copy-5{
+#layer-3-copy-5 {
     left: 950px;
     top: -340px;
 }
 
 @keyframes layer-sperm {
-    from{
+    from {
         transform: translate(70px, 20px) scale(0.5);
         opacity: 0;
     }
-    to{
+    to {
         transform: translate(0, 0) scale(0.5);
         opacity: 100%;
     }

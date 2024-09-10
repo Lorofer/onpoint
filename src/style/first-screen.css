@@ -1,11 +1,11 @@
-.slider{
+.slider {
     position: relative;
     width: 100vw;
     height: 100vh;
     user-select: none;
     touch-action: pan-y;
 }
-.slider-list{
+.slider-list {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -16,28 +16,31 @@
     flex-shrink: 0;
 }
 
-.first-screen-content{
+.first-screen-content {
     text-transform: uppercase;
     letter-spacing: 4px;
     margin-left: 68px;
     position: absolute;
     bottom: 210px;
-    & > p{
+    & > p {
         font-size: 27px;
         line-height: 75px;
-        font-family: 'Gilroy-Light';
+        font-family: "Gilroy-Light";
     }
-    & > h1{
+    & > h1 {
         font-size: 109px;
         line-height: 117px;
-        font-family: 'Gilroy-Thin';
+        font-family: "Gilroy-Thin";
 
-        & > b{
-            font-family: 'Gilroy-ExtraBold';
+        & > b {
+            font-family: "Gilroy-ExtraBold";
+        }
+        & > b {
+
         }
     }
 }
-#first-screen-button{
+#first-screen-button {
     width: 289px;
     height: 81px;
 
@@ -45,7 +48,7 @@
     right: 64px;
     bottom: 20px;
 
-    & #button-arrow{
+    & #button-arrow {
         position: absolute;
         display: inline-block;
         height: 18px;

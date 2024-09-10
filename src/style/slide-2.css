@@ -1,54 +1,54 @@
-#second-slide .content-container{
+#second-slide .content-container {
     margin-left: 68px;
-    & > h2{
+    & > h2 {
         margin-top: 150px;
         margin-bottom: 15px;
-        font-family: 'Gilroy-Light';
+        font-family: "Gilroy-Light";
         font-size: 28px;
         line-height: 38px;
         text-transform: uppercase;
     }
 }
-.scroll-container{
+.scroll-container {
     display: flex;
     height: 445px;
 }
-.scroll-line{
+.scroll-line {
     width: 5px;
     height: 100%;
     border-radius: 5px;
     background-color: #333;
 }
-.scroll{
+.scroll {
     width: 20px;
     height: 100px;
     position: relative;
     left: -8px;
 }
-.text-block{
+.text-block {
     position: relative;
     z-index: 1;
     height: 100%;
     width: 775px;
     background-color: white;
-    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
     overflow-y: hidden;
     padding: 32px;
     border-radius: 40px;
     margin-left: 34px;
 }
-.text{
+.text {
     position: relative;
-    & p{
+    & p {
         font-size: 22px;
-        font-family: 'DINPro';
+        font-family: "DINPro";
     }
-    & p:not(:last-child){
+    & p:not(:last-child) {
         font-size: 22px;
-        font-family: 'DINPro';
+        font-family: "DINPro";
         margin-bottom: 22px;
     }
-    & b{
-        font-family: 'DINPro-bold';
+    & b {
+        font-family: "DINPro-bold";
     }
 }
